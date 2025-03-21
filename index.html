@@ -155,7 +155,7 @@
                     </div>
                     <div class="privacy-agreement">
                         <input class="privacy-checkbox visually-hidden" type="checkbox" id="user-privacy" value="true"
-                            name="user-privacy" required >
+                            name="user-privacy" required>
                         <label class="privacy-text" for="user-privacy">
                             <span class="modal-form-checkbox">
                                 <svg class="modal-form-checkbox-icon" width="10" height="8">
@@ -186,7 +186,7 @@
         <section class="section" id="studio">
             <div class="container">
                 <h2 class="visually-hidden">Benefits</h2>
-                <ul class="list">
+                <ul class="benefits-list">
                     <li class="card">
                         <div class="benefits-icon">
                             <svg width="64" height="64">
@@ -237,9 +237,11 @@
         <section class=" section team">
             <div class="container">
                 <h2 class="team-title">Our Team</h2>
-                <ul class="list">
-                    <li class="team-item card">
-                        <img src="./images/team/img-01.jpg" alt="Mark Guerrero photo" width="264" height="260">
+                <ul class="team-list">
+                    <li class="team-item">
+                        <img src="./images/team/img-01.jpg"
+                            srcset="./images/team/img-01.jpg 1x, ./images/team/img-01-x2.jpg 2x"
+                            alt="Mark Guerrero photo" width="264" height="260">
                         <div class="team-item-box">
                             <h3 class="team-box-title">Mark Guerrero</h3>
                             <p class="team-box-text">Product Designer</p>
@@ -280,7 +282,9 @@
                         </div>
                     </li>
                     <li class="team-item card">
-                        <img src="./images/team/img-02.jpg" alt="Tom Ford photo" width="264" height="260">
+                        <img src="./images/team/img-02.jpg"
+                            srcset="./images/team/img-02.jpg 1x, ./images/team/img-02-x2.jpg 2x" alt="Tom Ford photo"
+                            width="264" height="260">
                         <div class="team-item-box">
                             <h3 class="team-box-title">Tom Ford</h3>
                             <p class="team-box-text">Frontend Developer</p>
@@ -322,7 +326,9 @@
                         </div>
                     </li>
                     <li class="team-item card">
-                        <img src="./images/team/img-03.jpg" alt="Camila Garcia photo" width="264" height="260">
+                        <img src="./images/team/img-03.jpg"
+                            srcset="./images/team/img-03.jpg 1x, ./images/team/img-03-x2.jpg 2x"
+                            alt="Camila Garcia photo" width="264" height="260">
                         <div class="team-item-box">
                             <h3 class="team-box-title">Camila Garcia</h3>
                             <p class="team-box-text">Marketing</p>
@@ -364,7 +370,9 @@
                         </div>
                     </li>
                     <li class="team-item card">
-                        <img src="./images/team/img-04.jpg" alt="Daniel Wilson photo" width="264" height="260">
+                        <img src="./images/team/img-04.jpg"
+                            srcset="./images/team/img-04.jpg 1x, ./images/team/img-04-x2.jpg 2x"
+                            alt="Daniel Wilson photo" width="264" height="260">
                         <div class="team-item-box">
                             <h3 class="team-box-title">Daniel Wilson</h3>
                             <p class="team-box-text">UI Designer</p>
@@ -414,71 +422,91 @@
         <section class=" section portfolio" id="portfolio">
             <div class="container">
                 <h2 class="portfolio-title">Our Portfolio</h2>
-                <ul class="portfolio-list list">
-                    <li class="portfolio-item card">
+                <ul class="portfolio-list">
+                    <li class="portfolio-item">
                         <div class="portfolio-text-wrap">
-                            <img src="./images/portfolio/img-01.jpg" alt="Banking App photo" width="360" height="300">
-                            <p class="text-wrap">14 Stylish and User-Friendly App Design Concepts · Task Manager App ·
-                                Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
+                            <img src="./images/portfolio/img-01.jpg"
+                                srcset="./images/portfolio/img-01.jpg 1x, ./images/portfolio/img-01-x2.jpg 2x"
+                                alt="Banking App photo" width="360" height="300">
+                            <p class="text-wrap">
+                                14 Stylish and User-Friendly App Design Concepts · Task Manager App ·
+                                Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
+                            </p>
                         </div>
                         <div class="portfolio-item-box">
                             <h3 class="portfolio-box-title">Banking App</h3>
                             <p class="portfolio-box-text">App</p>
                         </div>
                     </li>
-                    <li class="portfolio-item card">
+                    <li class="portfolio-item">
                         <div class="portfolio-text-wrap">
-                            <img src="./images/portfolio/img-02.jpg" alt="Cashless Payment photo" width="360"
-                                height="300">
-                            <p class="text-wrap">14 Stylish and User-Friendly App Design Concepts · Task Manager App ·
-                                Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
+                            <img src="./images/portfolio/img-02.jpg"
+                                srcset="./images/portfolio/img-02.jpg 1x, ./images/portfolio/img-02-x2.jpg 2x"
+                                alt="Cashless Payment photo" width="360" height="300">
+                            <p class="text-wrap">
+                                14 Stylish and User-Friendly App Design Concepts · Task Manager App ·
+                                Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
+                            </p>
                         </div>
                         <div class="portfolio-item-box">
                             <h3 class="portfolio-box-title">Cashless Payment</h3>
                             <p class="portfolio-box-text">Marketing</p>
                         </div>
                     </li>
-                    <li class="portfolio-item card">
+                    <li class="portfolio-item">
                         <div class="portfolio-text-wrap">
-                            <img src="./images/portfolio/img-03.jpg" alt="Meditation App photo" width="360"
-                                height="300">
-                            <p class="text-wrap">14 Stylish and User-Friendly App Design Concepts · Task Manager App ·
-                                Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
+                            <img src="./images/portfolio/img-03.jpg"
+                                srcset="./images/portfolio/img-03.jpg 1x, ./images/portfolio/img-03-x2.jpg 2x"
+                                alt="Meditation App photo" width="360" height="300">
+                            <p class="text-wrap">
+                                14 Stylish and User-Friendly App Design Concepts · Task Manager App ·
+                                Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
+                            </p>
                         </div>
                         <div class="portfolio-item-box">
                             <h3 class="portfolio-box-title">Meditation App</h3>
                             <p class="portfolio-box-text">App</p>
                         </div>
                     </li>
-                    <li class="portfolio-item card">
+                    <li class="portfolio-item">
                         <div class="portfolio-text-wrap">
-                            <img src="./images/portfolio/img-04.jpg" alt="Taxi Service photo" width="360" height="300">
-                            <p class="text-wrap">14 Stylish and User-Friendly App Design Concepts · Task Manager App ·
-                                Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
+                            <img src="./images/portfolio/img-04.jpg"
+                                srcset="./images/portfolio/img-04.jpg 1x, ./images/portfolio/img-04-x2.jpg 2x"
+                                alt="Taxi Service photo" width="360" height="300">
+                            <p class="text-wrap">
+                                14 Stylish and User-Friendly App Design Concepts · Task Manager App ·
+                                Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
+                            </p>
                         </div>
                         <div class="portfolio-item-box">
                             <h3 class="portfolio-box-title">Taxi Service</h3>
                             <p class="portfolio-box-text">Marketing</p>
                         </div>
                     </li>
-                    <li class="portfolio-item card">
+                    <li class="portfolio-item">
                         <div class="portfolio-text-wrap">
-                            <img src="./images/portfolio/img-05.jpg" alt="Screen Illustrations photo" width="360"
-                                height="300">
-                            <p class="text-wrap">14 Stylish and User-Friendly App Design Concepts · Task Manager App ·
-                                Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
+                            <img src="./images/portfolio/img-05.jpg"
+                                srcset="./images/portfolio/img-05.jpg 1x, ./images/portfolio/img-05-x2.jpg 2x"
+                                alt="Screen Illustrations photo" width="360" height="300">
+                            <p class="text-wrap">
+                                14 Stylish and User-Friendly App Design Concepts · Task Manager App ·
+                                Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
+                            </p>
                         </div>
                         <div class="portfolio-item-box">
                             <h3 class="portfolio-box-title">Screen Illustrations</h3>
                             <p class="portfolio-box-text">Design</p>
                         </div>
                     </li>
-                    <li class="portfolio-item card">
+                    <li class="portfolio-item">
                         <div class="portfolio-text-wrap">
-                            <img src="./images/portfolio/img-06.jpg" alt="Online Courses photo" width="360"
-                                height="300">
-                            <p class="text-wrap">14 Stylish and User-Friendly App Design Concepts · Task Manager App ·
-                                Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
+                            <img src="./images/portfolio/img-06.jpg"
+                                srcset="./images/portfolio/img-06.jpg 1x, ./images/portfolio/img-06-x2.jpg 2x"
+                                alt="Online Courses photo" width="360" height="300">
+                            <p class="text-wrap">
+                                14 Stylish and User-Friendly App Design Concepts · Task Manager App ·
+                                Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
+                            </p>
                         </div>
                         <div class="portfolio-item-box">
                             <h3 class="portfolio-box-title">Online Courses</h3>
